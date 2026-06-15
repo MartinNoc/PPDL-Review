@@ -10,15 +10,15 @@
 
 ## Search string
 ```
-TITLE-ABS-KEY ( "privacy"  AND  ( "inference"  OR  "training" )  AND  ( "deep learning"  OR  "neural network" )  AND  ( "homomorphic encryption"  OR  "differential privacy"  OR  "multiparty computation"  OR  "multi-party computation"  OR  "two-party computation" )  AND  ( "implement"  OR  "implemented"  OR  "implementation"  OR  "evaluate"  OR  "evaluation" ) )  AND NOT  TITLE ( "sok"  OR  "survey"  OR  "attack"  OR  "attacks" )  AND  PUBYEAR  >  2016  AND  ( LIMIT-TO ( LANGUAGE ,  "English" ) )
+TITLE-ABS-KEY ( ("privacy" OR "private")  AND  ( "inference"  OR  "training" )  AND  ( "deep learning"  OR  "neural network" )  AND  ( "homomorphic encryption"  OR  "differential privacy"  OR  "multiparty computation"  OR  "multi-party computation"  OR  "two-party computation" )  AND  ( "implement"  OR  "implemented"  OR  "implementation"  OR  "evaluate"  OR  "evaluation" ) )  AND NOT  TITLE ( "sok"  OR  "survey"  OR  "attack"  OR  "attacks" )  AND  PUBYEAR  >  2016  AND  ( LIMIT-TO ( LANGUAGE ,  "English" ) )
 ```
-317 unique publications received from Scopus
+327 unique publications received from Scopus as of May 2024
 
-106 publications were excluded
+107 publications were excluded
 
 72 publications were added by a manual forward-backward-search
 
-Total: 283 reviewed publications
+Total: 292 reviewed publications
 
 [🔝 back to top](#a-systematic-review-of-privacy-preserving-approaches-in-deep-learning-applications)
 
@@ -36,7 +36,9 @@ Total: 283 reviewed publications
 |I1|Chet: An optimizing compiler for fully-homomorphic neural-network inferencing|Dathathri R.|2019|
 |I1|Chex-Mix: Combining Homomorphic Encryption with Trusted Execution Environments for Oblivious Inference in the Cloud|Natarajan D.|2023|
 |I1|COINN: Crypto/ML Codesign for Oblivious Inference via Neural Networks|Hussain S.|2021|
+|I1|Complex Encoded Tile Tensors: Accelerating Encrypted Analytics|Aharoni E.|2022|
 |I1|Computing neural networks withÂ homomorphic encryption andÂ verifiable computing|Madi A.|2020|
+|I1|CRYPTEN: Secure Multi-Party Computation Meets Machine Learning|Knott B.|2021|
 |I1|CrypTFlow: Secure TensorFlow Inference|Kumar N.|2020|
 |I1|CryptInfer: Enabling Encrypted Inference on Skin Lesion Images for Melanoma Detection|Jain N.|2021|
 |I1|CryptoSPN: Expanding PPML beyond Neural Networks|Treiber A.|2020|
@@ -53,6 +55,7 @@ Total: 283 reviewed publications
 |I1|ENNclave: Offline Inference with Model Confidentiality|SchlÃ¶gl A.|2020|
 |I1|EPIDL: Towards efficient and privacy-preserving inference in deep learning|Nie C.|2024|
 |I1|EVA: An encrypted vector arithmetic language and compiler for efficient homomorphic computation|Dathathri R.|2020|
+|I1|Exploring Bitslicing Architectures for Enabling FHE-Assisted Machine Learning|Sinha S.|2022|
 |I1|Falcon: Fast spectral inference on encrypted data|Lou Q.|2020|
 |I1|Fast and Private Inference of Deep Neural Networks by Co-designing Activation Functions|Diaa A.|2024|
 |I1|Fast Homomorphic Evaluation of Deep Discretized Neural Networks|Bourse F.|2018|
@@ -107,8 +110,11 @@ Total: 283 reviewed publications
 |I1|RNA-ViT: Reduced-Dimension Approximate Normalized Attention Vision Transformers for Latency Efficient Private Inference|Chen D.|2023|
 |I1|Roulette: A Semantic Privacy-Preserving Device-Edge Collaborative Inference Framework for Deep Learning Classification Tasks|Li J.|2024|
 |I1|SEALion: A framework for neural network inference on encrypted data|van Elsloo T.|2019|
+|I1|SecBNN: Efficient Secure Inference on Binary Neural Networks|Chen H.|2024|
 |I1|SecFloat: Accurate Floating-Point meets Secure 2-Party Computation|Rathee D.|2022|
+|I1|Secure content based image retrieval for mobile users with deep neural networks in the cloud|Hassan A.|2021|
 |I1|Secure Convolution Neural Network Inference Based on Homomorphic Encryption|Song C.|2023|
+|I1|Secure image classification with deep neural networks for IoT applications|Hassan A.|2021|
 |I1|Secure tumor classification by shallow neural network using homomorphic encryption|Hong S.|2022|
 |I1|SepMM: A General Matrix Multiplication Optimization Approach for Privacy-Preserving Machine Learning|Tung-Lin T.|2023|
 |I1|SieveNet: Decoupling activation function neural network for privacy-preserving deep learning|Wang Q.|2021|
@@ -271,6 +277,7 @@ Total: 283 reviewed publications
 |T3|Perun: Confidential Multi-stakeholder Machine Learning Framework with Hardware Acceleration Support|Ozga W.|2021|
 |T3|Piranha: A GPU Platform for Secure Computation|Watson J.L.|2022|
 |T3|POSEIDON: Privacy-Preserving Federated Neural Network Learning|Sav S.|2021|
+|T3|Practical and Private (Deep) Learning Without Sampling or Shuffling|Kairouz P.|2021|
 |T3|Prediction and Privacy Scheme for Traffic Flow Estimation on the Highway Road Network|Akallouch M.|2022|
 |T3|Privacy Preserving Distributed Deep Learning and Its Application in Credit Card Fraud Detection|Wang Y.|2018|
 |T3|Privacy preserving multi-party computation delegation for deep learning in cloud computing|Ma X.|2018|
@@ -292,6 +299,7 @@ Total: 283 reviewed publications
 |T3|Secure and provenance enhanced internet of health things framework: A blockchain managed federated learning approach|Rahman M.A.|2020|
 |T3|Secure Decentralized Image Classification with Multiparty Homomorphic Encryption|Xu G.|2023|
 |T3|Secure federated learning for Alzheimer's disease detection|Mitrovska A.|2024|
+|T3|Secure Neuroimaging Analysis using Federated Learning with Homomorphic Encryption|Stripelis D.|2021|
 |T3|Secure Quantized Training for Deep Learning|Keller M.|2022|
 |T3|SecureML: A System for Scalable Privacy-Preserving Machine Learning|Mohassel P.|2017|
 |T3|SecureSL: A Privacy-preserving Vertical Cooperative Learning Scheme for Web 3.0|Yang W.|2023|
@@ -318,6 +326,7 @@ Total: 283 reviewed publications
 |-----|------|----|
 |10th International Conference on Future Data and Security Engineering, FDSE 2023||2023|
 |14th IFIP International Summer School on Privacy and Identity Management, 2019||2020|
+|15th International Workshop on Constructive Side-Channel Analysis and Secure Design, COSADE 2024||2024|
 |35th Annual IFIP WG 11.3 Conference on Data and Applications Security and Privacy, DBSec 2021||2021|
 |3rd Workshop on Intelligent Data - From Data to Knowledge, DOING 2022, 1st Workshop on Knowledge Graphs Analysis on a Large Scale, K-GALS 2022, 4th Workshop on Modern Approaches in Data Engineering and Information System Design, MADEISD 2022, 2nd Workshop on Advanced Data Systems Management, Engineering, and Analytics, MegaData 2022, 2nd Workshop on Semantic Web and Ontology Design for Cultural Heritage, SWODCH 2022 and Doctoral Consortium which accompanied 26th European Conference on Advances in Databases and Information Systems, ADBIS 2022||2022|
 |47th International Conference on Very Large Data Bases, VLDB 2021||2021|
@@ -428,6 +437,7 @@ Total: 283 reviewed publications
 # Publications that address multiple use cases
 |Title|First Author|Main Use Case|Additional Use Case|
 |---|---|---|---|
+|CRYPTEN: Secure Multi-Party Computation Meets Machine Learning|I1|T3|
 |Privacy-preserving machine learning as a service|Hesamifard E.|T2|I1|
 |Secure transfer learning for machine fault diagnosis under different operating conditions|Jin C.|T2|I1|
 |PrivFT: Private and fast text classification with homomorphic encryption|Al Badawi A.|T2|I1|
