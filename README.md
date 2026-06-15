@@ -12,13 +12,13 @@
 ```
 TITLE-ABS-KEY ( ("privacy" OR "private")  AND  ( "inference"  OR  "training" )  AND  ( "deep learning"  OR  "neural network" )  AND  ( "homomorphic encryption"  OR  "differential privacy"  OR  "multiparty computation"  OR  "multi-party computation"  OR  "two-party computation" )  AND  ( "implement"  OR  "implemented"  OR  "implementation"  OR  "evaluate"  OR  "evaluation" ) )  AND NOT  TITLE ( "sok"  OR  "survey"  OR  "attack"  OR  "attacks" )  AND  PUBYEAR  >  2016  AND  ( LIMIT-TO ( LANGUAGE ,  "English" ) )
 ```
-327 unique publications received from Scopus as of May 2024
+326 unique publications received from Scopus as of May 2024
 
 107 publications were excluded
 
 72 publications were added by a manual forward-backward-search
 
-Total: 292 reviewed publications
+Total: 291 reviewed publications
 
 [🔝 back to top](#a-systematic-review-of-privacy-preserving-approaches-in-deep-learning-applications)
 
